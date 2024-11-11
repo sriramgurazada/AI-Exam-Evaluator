@@ -28,7 +28,8 @@ Run the Application:streamlit run app.py
 Upload PDFs containing study material in the sidebar and click "Process Study Material."
 
 **Ask Questions:**
-Enter questions in the input field to retrieve answers from the study material.
+Give a prompt like: "Identify the questions and answers from the document and get the results, validate it against the document which i have provided and score it."
+
 
 **Validate Answers:**
 Upload student answer PDFs, then click "Process Answers" to evaluate and receive feedback.
@@ -59,7 +60,9 @@ Generates detailed feedback and scores based on response accuracy.
 **Future Improvements**
 
 **Combination of Multiple Vector Embeddings:** Testing is ongoing to improve response accuracy by combining embeddings.
+
 **Enhanced Query Processing:** Plans to implement additional LLM-based query enhancement and processing for more accurate feedback.
+
 The application looks like this : 
 <img width="1417" alt="Screenshot 2024-11-10 at 10 15 53 PM" src="https://github.com/user-attachments/assets/bbb76751-11ab-4293-8fd2-fa35e9fa12bb">
 
