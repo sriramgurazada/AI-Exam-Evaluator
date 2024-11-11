@@ -60,5 +60,7 @@ Generates detailed feedback and scores based on response accuracy.
 
 **Combination of Multiple Vector Embeddings:** Testing is ongoing to improve response accuracy by combining embeddings.
 **Enhanced Query Processing:** Plans to implement additional LLM-based query enhancement and processing for more accurate feedback.
+The application looks like this : 
+<img width="1417" alt="Screenshot 2024-11-10 at 10 15 53 PM" src="https://github.com/user-attachments/assets/bbb76751-11ab-4293-8fd2-fa35e9fa12bb">
 
 
