@@ -1,26 +1,36 @@
-**AI Exam Evaluator**
+# AI Exam Evaluator
 
-AI Exam Evaluator is an interactive web application that uses large language models (LLMs) to evaluate students' answers by comparing them with correct answers from study material PDFs. Built with Streamlit, LangChain, and FAISS, the application extracts text from study materials, validates student responses, and provides feedback scores.
+**AI Exam Evaluator** is an interactive web application that uses large language models (LLMs) to evaluate students' answers by comparing them with correct answers from study material PDFs. Built with Streamlit, LangChain, and FAISS, the application extracts text from study materials, validates student responses, and provides feedback scores.
 
-**Features**
+## Features
 
-Upload Study Material: Users can upload PDFs of study material, which the application processes for question-answer retrieval.
-Conversational Retrieval: The app uses Ollama Llama 3.2 and FAISS to retrieve accurate answers from the material.
-Answer Validation: By comparing student answers from answer PDFs with correct responses, the app assigns scores out of 10 and provides detailed feedback.
-OCR Integration: AWS Textract extracts text from answer PDFs, enabling the application to read handwritten or typed answers.
-Custom UI with CSS: Provides a chat-like interface with avatars for an interactive experience.
-Installation
+- **Upload Study Material**: Users can upload PDFs of study material, which the application processes for question-answer retrieval.
+- **Conversational Retrieval**: The app uses Ollama Llama 3.2 and FAISS to retrieve accurate answers from the material.
+- **Answer Validation**: By comparing student answers from answer PDFs with correct responses, the app assigns scores out of 10 and provides detailed feedback.
+- **OCR Integration**: AWS Textract extracts text from answer PDFs, enabling the application to read handwritten or typed answers.
+- **Custom UI with CSS**: Provides a chat-like interface with avatars for an interactive experience.
 
-**Prerequisites**
-Python 3.8+
-AWS Credentials: Required for Textract API access
-Packages: streamlit, langchain, sentence-transformers, boto3, PyPDF2, and dotenv
+## Installation
 
-**Setup**
-Clone the Repository
-Install requirements
-Configure AWS Credentials
-Run the Application:streamlit run app.py
+### Prerequisites
+- **Python 3.8+**
+- **AWS Credentials**: Required for Textract API access.
+- **Packages**: `streamlit`, `langchain`, `sentence-transformers`, `boto3`, `PyPDF2`, and `dotenv`
+
+### Setup
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/sriramgurazada/AI-Exam-Evaluator.git
+
+2. **Install Requirements**
+   pip install -r requirements.txt
+
+  
+
+3. **Configure AWS Credentials**: Set up AWS credentials in your environment for Textract API access.
+
+4. **Run the Application**
+    streamlit run app.py
 
 **Usage**
 
