@@ -28,15 +28,6 @@ def get_pdf_text(pdf_docs):
 
 
 def ocr(files):
-    """
-    Extracts text from images using AWS Textract and from PDFs using PyPDF2.
-    
-    Args:
-        files (list): List of file objects (images or PDFs).
-        
-    Returns:
-        str: Extracted text from all files.
-    """
     textract = boto3.client('textract')
     extracted_text = ""
 
